@@ -10,15 +10,45 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <div class="bg-blue-500 text-white p-4">
-      This is a blue box with white text and padding.
+
+  <nav class="flex fixed top-0 w-full bg-gray-800 text-white p-4">
+    <a href="#section1" class="px-4 py-2 text-blue-500 hover:underline"
+      >Section 1</a
+    >
+    <a href="#section2" class="px-4 py-2 text-blue-500 hover:underline"
+      >Section 2</a
+    >
+    <a href="#section3" class="px-4 py-2 text-blue-500 hover:underline"
+      >Section 3</a
+    >
+  </nav>
+
+  <!-- Section 1 -->
+  <section id="section1" class="bg-gray-200 h-screen p-24">
+    <!-- tag component -->
+    <div class="inline-block border-2 border-gray-400 outline-neutral-950 px-4 py-4 rounded-lg" >
+      <div class="flex flex-row">
+        <div>
+        <p class="mr-2 py-2">tabname</p>
+        </div>
+      <div class="bg-gray-300 p-2 rounded-full">24</div>
     </div>
-    <div>
-      <p class="pt-5">
-        I am a senior Product
-        <span class="font-bold text-green-400">designer</span>
-      </p>
-    </div>
-  </body>
+    
+
+
+    <!-- Content of Section 1 -->
+  </section>
+
+  <!-- Section 2 -->
+  <section id="section2" class="bg-gray-300 h-screen p-24">
+    <h2 class="text-3xl font-bold">Section 2</h2>
+    <!-- Content of Section 2 -->
+  </section>
+
+  <!-- Section 3 -->
+  <section id="section3" class="bg-gray-400 h-screen p-24">
+    <h2 class="text-3xl font-bold">Flexbox 3</h2>
+
+    <!-- Content of Section 3 -->
+  </section>
 </html>
