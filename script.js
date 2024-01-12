@@ -10,3 +10,4 @@ outputHeading.textContent = enteredText;
 
 //function to do action on click
 window.alert(textInput.value);
+console.print(enteredText);
